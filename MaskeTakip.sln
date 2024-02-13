@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Workaround", "Workaround\Workaround.csproj", "{D00D5AC2-F6FF-4897-A438-09FA1A6A6B9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{02840A9B-C100-4FF7-B3A9-384E5A16942C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{F6544E1E-DA7E-43B4-9918-B72E57414ACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D00D5AC2-F6FF-4897-A438-09FA1A6A6B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00D5AC2-F6FF-4897-A438-09FA1A6A6B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00D5AC2-F6FF-4897-A438-09FA1A6A6B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00D5AC2-F6FF-4897-A438-09FA1A6A6B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02840A9B-C100-4FF7-B3A9-384E5A16942C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02840A9B-C100-4FF7-B3A9-384E5A16942C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02840A9B-C100-4FF7-B3A9-384E5A16942C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02840A9B-C100-4FF7-B3A9-384E5A16942C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6544E1E-DA7E-43B4-9918-B72E57414ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6544E1E-DA7E-43B4-9918-B72E57414ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6544E1E-DA7E-43B4-9918-B72E57414ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6544E1E-DA7E-43B4-9918-B72E57414ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5C88DC7-0409-4A23-949E-C353FAF97962}
+	EndGlobalSection
+EndGlobal
