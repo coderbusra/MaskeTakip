@@ -10,7 +10,6 @@ namespace Business.Concrete
         {
             _applicantService = applicantService;
         }
-
         public void GiveMask(Person person) 
         {
             if(_applicantService.CheckPerson(person))
@@ -21,6 +20,5 @@ namespace Business.Concrete
                 Console.WriteLine(person.FirstName + " için maske verilemedi");
             }
         }
-
     }
 }
